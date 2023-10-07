@@ -1,1 +1,27 @@
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#memes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.meme {
+    margin: 10px;
+}
+
+.meme img {
+    max-width: 100%;
+    max-height: 200px;
+}
